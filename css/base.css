@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	width: 100%;
+	background: url("../img/index/bg_main.png") repeat;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*--- ページ基本デザイン ---*/
+
+
+header {
+  background-color:;
+  height: 100px;
+}
+
+#navi {
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255, 130, 255, 0.8);
+	position: fixed;
+	z-index: 1000;
+}
+
+#navi h1 {
+	font-size: 20px;
+	width: 200px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+ul#header_navi {
+	padding-left: 1330px;
+	float: right;
+}
+
+#header_navi li {
+	float: right;
+	margin-right: 10px;
+  list-style: none;
+	width: 80px;
+}
+
+#index_emp {
+  width: 500px;
+  height: 130px;
+  padding: 15px;
+  margin: 0.5em auto;
+  color: #000;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+#index_emp ul li {
+  float: left;
+  margin-right: 15px;
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+#details {
+  padding-left: 430px;
+  padding-top: 15px;
+}
+
+#details_emp {
+  width: 500px;
+  height: 225px;
+  padding: 15px;
+  margin: 0.5em auto;
+  color: #000;
+  background-color: #F0FFFF;
+  border: 1px solid #ccc;
+}
+
+#details_emp ul li {
+  float: left;
+  margin-right: 15px;
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+#edit {
+  padding-left: 430px;
+  padding-top: 80px;
+}
+
+form {
+	width: 500px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+table {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 600px;
+}
+form tr {
+  padding: 3px;
+}
+form th {
+	font-size: 13px;
+	width: 80px;
+	height: 40px;
+}
+form td {
+	height: 40px;
+	background-color: #ffffff;
+}
+form input {
+	width: 80%;
+	line-height: 24px;
+}
+
+#submit {
+    width: 100px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.error {
+	color: red;
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+  color: #FFFFE0;
+}
